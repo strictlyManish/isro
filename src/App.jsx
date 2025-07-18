@@ -1,8 +1,10 @@
 import NavigationBar from "./components/NavigationBar";
 import Mainroutes from "./routes/Mainroutes";
+
+
 function App() {
   return (
-    <div className="bg-zinc-900 text-white px-10 py-2 scroll-mb-0 select-none">
+    <div className="relative bg-zinc-900 text-white px-10 py-2 select-none overflow-x-hidden">
       <NavigationBar />
       <Mainroutes />
     </div>

@@ -9,7 +9,7 @@ const springValues = {
 
 export default function TiltedCard({
   imageSrc,
-  altText = "",
+  altText = "Tilted card image",
   captionText = "",
   containerHeight = "300px",
   containerWidth = "100%",

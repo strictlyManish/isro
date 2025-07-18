@@ -24,7 +24,7 @@ function NavigationBar() {
   ];
 
   return (
-    <header className="w-full bg-zinc-900 text-white px-4 sm:px-8 py-4">
+    <header className="w-full bg-transparent text-white px-4 sm:px-8 py-4">
       <div className="flex justify-between items-center">
         <img
           src="src/assets/favicon.png.webp"

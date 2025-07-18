@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 function About() {
   return (
-    <div className="w-full px-4 sm:px-10 py-10 text-white bg-zinc-900">
+    <div className="w-full px-4 sm:px-10 py-10 text-whit">
       <motion.div
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
