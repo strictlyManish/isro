@@ -33,7 +33,7 @@ function NavigationBar() {
           width="50"
           className="object-contain"
         />
-        {/* Desktop Navigation */}
+        
         <nav className="hidden md:flex gap-6 font-medium text-lg">
           {navItems.map((item, idx) => (
             <NavLink key={idx} to={item.to} className={navLinkClass}>
@@ -42,7 +42,7 @@ function NavigationBar() {
           ))}
         </nav>
 
-        {/* Mobile Menu Button */}
+        
         <button
           className="md:hidden text-white"
           onClick={toggleMenu}
@@ -52,7 +52,7 @@ function NavigationBar() {
         </button>
       </div>
 
-      {/* Mobile Navigation */}
+      
       {menuOpen && (
         <nav className="flex flex-col gap-4 mt-4 md:hidden font-medium text-lg">
           {navItems.map((item, idx) => (
