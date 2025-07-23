@@ -28,7 +28,7 @@ function NavigationBar() {
     <header className="w-full sticky top-0 z-50 bg-transparent backdrop-blur px-4 sm:px-8 py-4 transition-all duration-300">
       <div className="flex justify-between items-center">
         <img
-          src="src/assets/favicon.png.webp"
+          src="/src/assets/favicon.png.webp"
           alt="Logo"
           width="50"
           className="object-contain"
