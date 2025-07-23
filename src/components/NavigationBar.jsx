@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import { Menu} from "lucide-react";
+import { Menu,X} from "lucide-react";
 
 function NavigationBar() {
   const [menuOpen, setMenuOpen] = useState(false);
