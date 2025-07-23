@@ -15,7 +15,7 @@ const Hero = () => {
   return (
     <div className="relative pt-48 pb-12 bg-black xl:pt-60 sm:pb-16 lg:pb-32 xl:pb-48 2xl:pb-56 overflow-hidden">
       <video
-        src="src\assets\bannervido.webm"
+        src="/bannervido.webm"
         autoPlay
         muted
         loop
