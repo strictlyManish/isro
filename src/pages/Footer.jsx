@@ -60,7 +60,7 @@ const Footer = () => {
 
           <div className="col-span-2 md:col-span-1 lg:col-span-2 lg:pl-8">
             <p className="text-sm font-semibold tracking-widest text-gray-400 uppercase">
-              Subscribe to newsletter
+              for more update
             </p>
             <form onSubmit={handleSubmit(onSubmit)} className="mt-6">
               <div>
@@ -93,7 +93,7 @@ const Footer = () => {
                 type="submit"
                 className="inline-flex items-center justify-center px-6 py-4 mt-3 font-semibold text-white transition-all duration-200 bg-blue-600 rounded-md hover:bg-blue-700 focus:bg-blue-700"
               >
-                Subscribe
+                Submit
               </button>
             </form>
           </div>

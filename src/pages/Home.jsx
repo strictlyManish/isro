@@ -35,15 +35,7 @@ const Hero = () => {
         >
           <h1 className="tracking-tighter text-white">
             <motion.span
-              className="font-sans font-normal text-5xl md:text-6xl lg:text-7xl block"
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2, duration: 0.8 }}
-            >
-              ISRO
-            </motion.span>
-            <motion.span
-              className="font-serif italic font-normal text-6xl md:text-7xl lg:text-8xl block"
+              className="font-serif italic font-normal text-5xl md:text-6xl lg:text-8xl block"
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
