@@ -22,6 +22,7 @@ function NavigationBar() {
     { name: "Programmes", to: "/programmes" },
     { name: "Resources", to: "/resources" },
     { name: "Engagements", to: "/engangements" },
+    { name: "Login & Resgister", to: "/login" },
   ];
 
   return (
@@ -54,7 +55,7 @@ function NavigationBar() {
 
       
       {menuOpen && (
-        <nav className="flex flex-col gap-4 mt-4 md:hidden font-medium text-lg">
+        <nav className="flex flex-col gap-4 mt-4 md:hidden text-lg">
           {navItems.map((item, idx) => (
             <NavLink
               key={idx}
